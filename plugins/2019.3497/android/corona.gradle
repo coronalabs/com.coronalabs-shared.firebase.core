@@ -1,0 +1,8 @@
+
+// "metadata", "dependencies", "jars", "native", "resources", "assets"
+ext["excludeCoronaPlugin"] = true
+ext["includeCoronaPlugin"] = ["dependencies"]
+
+dependencies {
+	implementation 'com.google.firebase:firebase-core:' + '16.+'
+}
